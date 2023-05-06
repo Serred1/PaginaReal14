@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One';
+}
+
+body {
+    background: url(../encuestas/img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+h1 {
+    position: relative;
+    width: fit-content;
+    background-color: #580078;
+    color: #fff;
+    margin: 40px auto;
+    border-radius: 60px;
+    box-shadow: 5px 5px 0 #000;
+    padding: 20px 30px;
+}
+
+.subtitulo {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn-comenzar {
+    position: relative;
+    background-color: #580078;
+    color: #fff;
+    font-size: 14px;
+    top: 50%;
+    right: -45%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 #000;
+    padding: 15px 30px;
+}
+
+.pantalla-juego {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#pantalla-juego {
+    display: none;
+}
+
+#pregunta {
+    font-size: 35px;
+}
+
+.opciones {
+    max-width: 400px;
+    margin: auto;
+}
+.opcion{
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 400px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.opcion .boton{
+    background-color: #580078;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+    border: 5px solid #fff;
+    position: relative;
+}
+.opcion .resp{
+    background: #fff;
+    width: 100%;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 30px;
+    z-index: -2;
+    border-radius: 0 20px 20px 0;
+    padding: 7px 0 7px 30px;
+}
+.opcion .botonAcertada{
+    background-color: yellowgreen;
+    color: #fff;
+}
+.opcion .respAcertada{
+    background-color: yellowgreen;
+    color: #fff ;
+}
+.opcion .botonNoAcertada{
+    background-color: darkred;
+    color: #fff;
+}
+.opcion .respNoAcertada{
+    background-color: darkred;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #000;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-inicio {
+    display: block;
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    font-family: cursive;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 #000;
+    padding: 15px 15px;
+}
+#pantalla-final{
+    display: none;
+    text-align: center;
+}
+#pantalla-final #numCorrectas{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+#pantalla-final #numIncorrectas{
+    background-color: darkred;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}

@@ -1,0 +1,22 @@
+.tabla {
+    background-color: #4e72f4;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
+  }
+
+ .columnas {
+    background: linear-gradient(to bottom, #4e72f4);
+    border: 3px solid purple;
+  }
+  .filas {
+    border: 3px solid purple;
+    padding: 20px;
+    caption-side: bottom;
+    color: white;
+    text-align: right;
+    letter-spacing: 1px;
+  }

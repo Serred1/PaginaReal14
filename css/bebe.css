@@ -1,0 +1,174 @@
+
+.container-fluid {
+    background-image: url(../img/niños2.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+    }
+
+.contenidovideo{
+    background-image: url(../img/niños.jpg);
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        column-count: 1;
+}
+
+
+.box-gray {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #696262;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white ;
+    font-family:cursive;
+    text-align: justify;
+    font-size:x-large;
+    float: right;
+    width: 450px;
+    height: 650px;
+}
+.left{
+    float: left;
+    margin-right: 20px;
+    width: 550px;
+    height: 550px;
+}
+.box-gray2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #696262;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white ;
+    font-family:cursive;
+    text-align: justify;
+    font-size:x-large;
+    float: left;
+    width: 450px;
+    height: 1300px;
+    margin-top: 130px;
+}
+.right{
+    float: right;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 300px;
+}
+.box-gray3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #696262;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white ;
+    font-family:cursive;
+    text-align: justify;
+    font-size:x-large;
+    float: right;
+    width: 1000px;
+    height:1450px;
+}
+.icono1{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/graduado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+h3 {
+    display: inline-block;
+}
+.icono2{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/icono2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.icono3{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/notas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.icono4{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/golpe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.icono5{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/insignia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabla th,
+.tabla td {
+    border: 1px solid #ddd ;
+    padding: 8px;
+    text-align: left;
+}
+.tabla th{
+    background-color: rgb(0, 0, 0);
+}
+.eliminar-usuario {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.eliminar-usuario:hover {
+    background-color: #da190b;
+}
+
+
